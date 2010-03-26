@@ -1,0 +1,773 @@
+﻿<?xml version="1.0"?>
+<root>
+	<instances>
+		<instance guid="BB35E503-3320-11DF-9FD1-B500157273CB" type="GameSharedResources.EntryInputActionMapDataVersion">
+			<field name="MapDataVersion">9</field>
+			<field name="EntryInputActionMapData">GUID0A2DBBC0-50B0-4590-98B9-106E5194B905</field>
+		</instance>
+		<instance guid="0A2DBBC0-50B0-4590-98B9-106E5194B905" type="GameSharedResources.EntryInputActionMapData">
+			<array name="Actions">
+				<item>GUID44D898A4-8740-48EC-879D-17FAB408DAA5</item>
+				<item>GUIDB28C5389-56A1-4403-A67F-0A637382BFFD</item>
+				<item>GUIDF70C9A46-99AE-4DDB-A700-061CAAF28E1E</item>
+				<item>GUID28653778-B3E5-48EA-ACA6-99686381EA25</item>
+				<item>GUID3BD24D00-70BB-4D03-9B9D-A330C4E38326</item>
+				<item>GUID96241ECB-2FC2-40BB-AA85-3C30F7950982</item>
+				<item>GUIDF4ED2AB8-F2B5-41A2-8E55-0FF72F75E50D</item>
+				<item>GUIDBB12E831-0FBC-4FFD-A093-1D8EC02C69B3</item>
+				<item>GUIDC5FE6FF2-1318-42B2-AF39-7DCD26CB7EAA</item>
+				<item>GUID31342041-AE97-49AE-8C23-361AC212891F</item>
+				<item>GUIDB2176C65-4273-4E92-B226-68CD36558991</item>
+				<item>GUIDFD31B65C-6238-481F-9B75-66F5AAF7099D</item>
+				<item>GUIDA31F6901-3A2D-4720-B85B-90ADD39F4FD0</item>
+				<item>GUID61174054-6D1D-4FB4-90CC-1605B8F4B346</item>
+				<item>GUID2382084E-373A-4616-995A-6E35F565112D</item>
+				<item>GUIDE4D0B071-3AE0-4348-940B-A2D6D9E2B767</item>
+				<item>GUIDF7D8B575-89C9-4892-9274-72D76CA990A4</item>
+				<item>GUID4AB4E294-830D-4F6A-8C3B-4206F856F6A3</item>
+				<item>GUID37B7938C-C2EA-4F34-8D76-FFB08D6446DE</item>
+				<item>GUID056FE125-8665-4952-8AEA-6472BE937DD9</item>
+				<item>GUID8E9E8660-A21D-4321-BB8F-8C56379DF538</item>
+				<item>GUID61AD8E7F-EF54-4A76-9C84-2428800C43B1</item>
+				<item>GUIDF364EC4E-65B4-42D9-94FA-5C1557D1CBED</item>
+				<item>GUID13085367-292C-4531-B30C-B70B24E6D881</item>
+			</array>
+			<field name="PlatformSpecific">IampXenon</field>
+			<field name="Slot">IAMESlot1</field>
+		</instance>
+		<instance guid="44D898A4-8740-48EC-879D-17FAB408DAA5" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptFire</field>
+			<array name="InputActions">
+				<item>GUIDEEE9B0F6-AF4D-42E2-A922-20BF416A0FDC</item>
+				<item>GUID51085362-7319-4DEC-96A7-5CADA3DDE877</item>
+				<item>GUID6EFFE5F5-8CA5-4F42-86E2-40A5E4255B4D</item>
+			</array>
+		</instance>
+		<instance guid="EEE9B0F6-AF4D-42E2-A922-20BF416A0FDC" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="51085362-7319-4DEC-96A7-5CADA3DDE877" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_0</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="6EFFE5F5-8CA5-4F42-86E2-40A5E4255B4D" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="B28C5389-56A1-4403-A67F-0A637382BFFD" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptMoveFB</field>
+			<array name="InputActions">
+				<item>GUID6D6BB079-8C38-48E8-8D35-58380F363DDB</item>
+				<item>GUIDA3F5AE31-5896-41BB-BC95-7B8025B0C439</item>
+				<item>GUIDE03E144A-40D0-4C5D-834A-3E82E44C78FB</item>
+			</array>
+		</instance>
+		<instance guid="6D6BB079-8C38-48E8-8D35-58380F363DDB" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="A3F5AE31-5896-41BB-BC95-7B8025B0C439" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_W</field>
+		</instance>
+		<instance guid="E03E144A-40D0-4C5D-834A-3E82E44C78FB" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">true</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="F70C9A46-99AE-4DDB-A700-061CAAF28E1E" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptBrake</field>
+			<array name="InputActions">
+				<item>GUIDA5644351-2EFD-4C2E-81BA-E83FE6C967BD</item>
+				<item>GUID8AFAF7CC-72CA-4CFE-9686-CBFEC95DDE46</item>
+				<item>GUIDF4870471-7B4D-444F-BD8C-068D4A6D433A</item>
+			</array>
+		</instance>
+		<instance guid="A5644351-2EFD-4C2E-81BA-E83FE6C967BD" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_S</field>
+		</instance>
+		<instance guid="8AFAF7CC-72CA-4CFE-9686-CBFEC95DDE46" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="F4870471-7B4D-444F-BD8C-068D4A6D433A" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="28653778-B3E5-48EA-ACA6-99686381EA25" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptMoveLR</field>
+			<array name="InputActions">
+				<item>GUID8FEF2013-2A2B-4144-A132-CD6A74A14206</item>
+				<item>GUIDEB992D52-FA73-40D2-8E4F-911CB724316E</item>
+				<item>GUID50AA94A8-ED12-4C6D-A97C-76472F9DD1BA</item>
+				<item>GUIDDB8F5D08-58C6-4E92-8166-A9256DA5A348</item>
+				<item>GUIDA5471128-A487-4FDE-8A38-80DE007683C7</item>
+				<item>GUID3CC0197F-F190-4D01-9A73-83ADB5383FA1</item>
+			</array>
+		</instance>
+		<instance guid="8FEF2013-2A2B-4144-A132-CD6A74A14206" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="EB992D52-FA73-40D2-8E4F-911CB724316E" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="50AA94A8-ED12-4C6D-A97C-76472F9DD1BA" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Key">IDK_A</field>
+		</instance>
+		<instance guid="DB8F5D08-58C6-4E92-8166-A9256DA5A348" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_D</field>
+		</instance>
+		<instance guid="A5471128-A487-4FDE-8A38-80DE007683C7" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">true</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="3CC0197F-F190-4D01-9A73-83ADB5383FA1" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">true</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="3BD24D00-70BB-4D03-9B9D-A330C4E38326" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptPitch</field>
+			<array name="InputActions">
+				<item>GUID225B4F6D-8E5C-495E-A802-054B6441EA66</item>
+				<item>GUID28EAC125-5735-4F29-95DF-95E1CC38A631</item>
+				<item>GUID0881937C-FFC5-4D3F-A558-8CD1A58F0A93</item>
+				<item>GUID60FBD39E-8FF1-4F11-A20A-0B0D20B6CD9E</item>
+				<item>GUID85FCF35C-7128-4682-A4D6-9076EBD97638</item>
+				<item>GUID689D015F-6DF6-485B-968C-ED9A321EFF5B</item>
+			</array>
+		</instance>
+		<instance guid="225B4F6D-8E5C-495E-A802-054B6441EA66" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="28EAC125-5735-4F29-95DF-95E1CC38A631" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="0881937C-FFC5-4D3F-A558-8CD1A58F0A93" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Axis0Y</field>
+			<field name="NormalizeInput">true</field>
+			<field name="ScaleValue">0.079999998</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="60FBD39E-8FF1-4F11-A20A-0B0D20B6CD9E" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">true</field>
+			<field name="ScaleValue">0.079999998</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="85FCF35C-7128-4682-A4D6-9076EBD97638" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="689D015F-6DF6-485B-968C-ED9A321EFF5B" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="96241ECB-2FC2-40BB-AA85-3C30F7950982" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptRoll</field>
+			<array name="InputActions">
+				<item>GUIDE050828C-88CC-4D39-8C83-8F2D7812EF03</item>
+				<item>GUID9AFB3EE6-AF83-4289-BFA4-7772038E82D7</item>
+				<item>GUIDA06E26CD-56C2-4A1B-8387-A5D85498A689</item>
+				<item>GUIDB4DA6205-077C-4D52-B3EB-3E3B372A7058</item>
+				<item>GUID91337D6A-42FD-480E-8370-53EAC6039DB8</item>
+				<item>GUIDC6BC3C93-CD7E-427D-947C-2BC63D0403AA</item>
+			</array>
+		</instance>
+		<instance guid="E050828C-88CC-4D39-8C83-8F2D7812EF03" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Axis0X</field>
+			<field name="NormalizeInput">true</field>
+			<field name="ScaleValue">0.079999998</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="9AFB3EE6-AF83-4289-BFA4-7772038E82D7" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">true</field>
+			<field name="ScaleValue">0.079999998</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="A06E26CD-56C2-4A1B-8387-A5D85498A689" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="B4DA6205-077C-4D52-B3EB-3E3B372A7058" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="91337D6A-42FD-480E-8370-53EAC6039DB8" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="C6BC3C93-CD7E-427D-947C-2BC63D0403AA" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="F4ED2AB8-F2B5-41A2-8E55-0FF72F75E50D" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptSnapViewCamera</field>
+			<array name="InputActions">
+				<item>GUIDF3670BCE-483F-4088-A32E-2B9025AA04B9</item>
+				<item>GUID84F4385D-E708-4830-BE1C-68F0B549C9A5</item>
+				<item>GUID65F2D00C-0A07-4647-8124-42386B5EDDCA</item>
+			</array>
+		</instance>
+		<instance guid="F3670BCE-483F-4088-A32E-2B9025AA04B9" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_V</field>
+		</instance>
+		<instance guid="84F4385D-E708-4830-BE1C-68F0B549C9A5" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="65F2D00C-0A07-4647-8124-42386B5EDDCA" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="BB12E831-0FBC-4FFD-A093-1D8EC02C69B3" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptZoom</field>
+			<array name="InputActions">
+				<item>GUID96BD01F8-FC18-4C40-80E6-833C23BAE472</item>
+				<item>GUID6D359D77-85FD-4AB1-AFEB-5DADCC00021D</item>
+				<item>GUID93EF4239-FCF7-46BE-A3FF-757BB9533471</item>
+			</array>
+		</instance>
+		<instance guid="96BD01F8-FC18-4C40-80E6-833C23BAE472" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_1</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="6D359D77-85FD-4AB1-AFEB-5DADCC00021D" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="93EF4239-FCF7-46BE-A3FF-757BB9533471" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="C5FE6FF2-1318-42B2-AF39-7DCD26CB7EAA" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptCameraPitch</field>
+			<array name="InputActions">
+				<item>GUIDD600BE72-4436-4585-A56F-EC360AF23E39</item>
+				<item>GUID27B75CDA-2527-4297-8C0E-0FAC89561613</item>
+				<item>GUID0EA4FC37-5865-489E-B06F-CD2B6F022F2B</item>
+				<item>GUIDC612340E-7561-4779-B9D5-24930E701321</item>
+				<item>GUID3CE1E6A5-AD96-4B48-9F41-00DA59C03D4F</item>
+				<item>GUID358466E8-3248-42BA-88D9-52EF1362A197</item>
+			</array>
+		</instance>
+		<instance guid="D600BE72-4436-4585-A56F-EC360AF23E39" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Axis0Y</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">0.0099999998</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="27B75CDA-2527-4297-8C0E-0FAC89561613" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">0.0099999998</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="0EA4FC37-5865-489E-B06F-CD2B6F022F2B" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="C612340E-7561-4779-B9D5-24930E701321" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="3CE1E6A5-AD96-4B48-9F41-00DA59C03D4F" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">0.0099999998</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="358466E8-3248-42BA-88D9-52EF1362A197" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">0.0099999998</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="31342041-AE97-49AE-8C23-361AC212891F" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptCameraYaw</field>
+			<array name="InputActions">
+				<item>GUID03F24D43-12B4-4128-99B2-3AB6638CEB1D</item>
+				<item>GUID4991C488-CF6C-4EE8-AADF-1B161CD7863E</item>
+				<item>GUID4DA0C2EA-48CB-46D6-BB42-95E913FB3D9D</item>
+				<item>GUID79FA317F-5B83-4403-9E05-49CC679D4884</item>
+				<item>GUIDCD12C628-B72D-43D2-AE88-7EBF098BA4AD</item>
+				<item>GUIDC7DD034D-1AE5-4F2D-A4CF-A74DB0F293E9</item>
+			</array>
+		</instance>
+		<instance guid="03F24D43-12B4-4128-99B2-3AB6638CEB1D" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Axis0X</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">0.0099999998</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="4991C488-CF6C-4EE8-AADF-1B161CD7863E" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">0.0099999998</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="4DA0C2EA-48CB-46D6-BB42-95E913FB3D9D" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="79FA317F-5B83-4403-9E05-49CC679D4884" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Key">IDK_Undefined</field>
+		</instance>
+		<instance guid="CD12C628-B72D-43D2-AE88-7EBF098BA4AD" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">0.0099999998</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="C7DD034D-1AE5-4F2D-A4CF-A74DB0F293E9" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">true</field>
+			<field name="NegateValue">true</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">0.0099999998</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="B2176C65-4273-4E92-B226-68CD36558991" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptChangeVehicle</field>
+			<array name="InputActions">
+				<item>GUIDD51F6EE2-A3AA-4CA3-B312-4CA54CDF9ADF</item>
+			</array>
+		</instance>
+		<instance guid="D51F6EE2-A3AA-4CA3-B312-4CA54CDF9ADF" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_E</field>
+		</instance>
+		<instance guid="FD31B65C-6238-481F-9B75-66F5AAF7099D" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptToggleCamera</field>
+			<array name="InputActions">
+				<item>GUID501B256A-880C-418E-945B-B621BCCDD05D</item>
+			</array>
+		</instance>
+		<instance guid="501B256A-880C-418E-945B-B621BCCDD05D" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_C</field>
+		</instance>
+		<instance guid="A31F6901-3A2D-4720-B85B-90ADD39F4FD0" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptMapZoom</field>
+			<array name="InputActions">
+				<item>GUIDFAF49E90-B44A-4C68-B901-AE737F832A85</item>
+				<item>GUID364721A2-ECEC-4980-892A-A8219581EA82</item>
+				<item>GUIDAFD41884-4896-4D62-8274-AF91E4730AD6</item>
+			</array>
+		</instance>
+		<instance guid="FAF49E90-B44A-4C68-B901-AE737F832A85" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_M</field>
+		</instance>
+		<instance guid="364721A2-ECEC-4980-892A-A8219581EA82" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="AFD41884-4896-4D62-8274-AF91E4730AD6" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="61174054-6D1D-4FB4-90CC-1605B8F4B346" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptSayAllChat</field>
+			<array name="InputActions">
+				<item>GUID62E95E68-ACE4-4FD0-A4DB-4D624B388397</item>
+				<item>GUID8B23E950-A248-4692-B19A-DDFE6B2115E9</item>
+				<item>GUID8ED0BD6F-DB79-471A-9C2D-485BADDECCAE</item>
+			</array>
+		</instance>
+		<instance guid="62E95E68-ACE4-4FD0-A4DB-4D624B388397" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_J</field>
+		</instance>
+		<instance guid="8B23E950-A248-4692-B19A-DDFE6B2115E9" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="8ED0BD6F-DB79-471A-9C2D-485BADDECCAE" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="2382084E-373A-4616-995A-6E35F565112D" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptTeamChat</field>
+			<array name="InputActions">
+				<item>GUID607136EA-05DA-4836-BB7A-899C953ED8B6</item>
+				<item>GUID2701AB53-9E27-43C6-9774-D5E49BCDB391</item>
+				<item>GUID42BE1C32-15CF-462F-B8A4-C04AB77D30FF</item>
+			</array>
+		</instance>
+		<instance guid="607136EA-05DA-4836-BB7A-899C953ED8B6" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_K</field>
+		</instance>
+		<instance guid="2701AB53-9E27-43C6-9774-D5E49BCDB391" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="42BE1C32-15CF-462F-B8A4-C04AB77D30FF" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="E4D0B071-3AE0-4348-940B-A2D6D9E2B767" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptSquadChat</field>
+			<array name="InputActions">
+				<item>GUIDAD5D1DDA-BC17-4EBB-BE79-9E264906E53E</item>
+				<item>GUID4AFAF479-9125-45A9-B0CE-23A04B7FB686</item>
+				<item>GUID2A63D3B6-9FDD-4015-A2DA-66F9295598FF</item>
+			</array>
+		</instance>
+		<instance guid="AD5D1DDA-BC17-4EBB-BE79-9E264906E53E" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_L</field>
+		</instance>
+		<instance guid="4AFAF479-9125-45A9-B0CE-23A04B7FB686" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="2A63D3B6-9FDD-4015-A2DA-66F9295598FF" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+		<instance guid="F7D8B575-89C9-4892-9274-72D76CA990A4" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptSelectEntry0</field>
+			<array name="InputActions">
+				<item>GUIDA9C6A041-8D8F-4B0F-BF3D-17E64D5B0781</item>
+			</array>
+		</instance>
+		<instance guid="A9C6A041-8D8F-4B0F-BF3D-17E64D5B0781" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_F1</field>
+		</instance>
+		<instance guid="4AB4E294-830D-4F6A-8C3B-4206F856F6A3" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptSelectEntry1</field>
+			<array name="InputActions">
+				<item>GUIDF6F77221-270C-45AD-A286-B28E6577F589</item>
+			</array>
+		</instance>
+		<instance guid="F6F77221-270C-45AD-A286-B28E6577F589" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_F2</field>
+		</instance>
+		<instance guid="37B7938C-C2EA-4F34-8D76-FFB08D6446DE" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptSelectEntry2</field>
+			<array name="InputActions">
+				<item>GUIDC2121673-A252-4C2C-BA4A-1029DA493BBC</item>
+			</array>
+		</instance>
+		<instance guid="C2121673-A252-4C2C-BA4A-1029DA493BBC" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_F3</field>
+		</instance>
+		<instance guid="056FE125-8665-4952-8AEA-6472BE937DD9" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptSelectEntry3</field>
+			<array name="InputActions">
+				<item>GUIDEB2A5D97-BECE-410D-A6BC-FA91F5BF0789</item>
+			</array>
+		</instance>
+		<instance guid="EB2A5D97-BECE-410D-A6BC-FA91F5BF0789" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_F4</field>
+		</instance>
+		<instance guid="8E9E8660-A21D-4321-BB8F-8C56379DF538" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptSelectEntry4</field>
+			<array name="InputActions">
+				<item>GUIDB8A41A56-E38F-4FEF-9578-4E0CE49CE2D7</item>
+			</array>
+		</instance>
+		<instance guid="B8A41A56-E38F-4FEF-9578-4E0CE49CE2D7" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_F5</field>
+		</instance>
+		<instance guid="61AD8E7F-EF54-4A76-9C84-2428800C43B1" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptSelectEntry5</field>
+			<array name="InputActions">
+				<item>GUIDA5D81AEA-AC47-4B47-B691-B44D6BC265F5</item>
+			</array>
+		</instance>
+		<instance guid="A5D81AEA-AC47-4B47-B691-B44D6BC265F5" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_F6</field>
+		</instance>
+		<instance guid="F364EC4E-65B4-42D9-94FA-5C1557D1CBED" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptPushToTalk</field>
+			<array name="InputActions">
+				<item>GUIDB9C36AEA-640D-4D3F-8C64-1A53AB127BAD</item>
+			</array>
+		</instance>
+		<instance guid="B9C36AEA-640D-4D3F-8C64-1A53AB127BAD" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_LeftAlt</field>
+		</instance>
+		<instance guid="13085367-292C-4531-B30C-B70B24E6D881" type="GameSharedResources.InputActionsData">
+			<field name="ConceptIdentifier">ConceptCommMenu1</field>
+			<array name="InputActions">
+				<item>GUID039C47BD-776D-4DDA-B1AD-BA959EDD10E0</item>
+				<item>GUID32F348C4-8147-48B2-AB7A-620EB929BE0F</item>
+				<item>GUID0F707BD1-5E3D-4878-8CB4-9D02C363DBF3</item>
+			</array>
+		</instance>
+		<instance guid="039C47BD-776D-4DDA-B1AD-BA959EDD10E0" type="GameSharedResources.KeyboardInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Key">IDK_Q</field>
+		</instance>
+		<instance guid="32F348C4-8147-48B2-AB7A-620EB929BE0F" type="GameSharedResources.MouseInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="Button">IDB_Button_Undefined</field>
+			<field name="SimulateJoystickAxis">false</field>
+			<field name="RememberExcessInput">false</field>
+		</instance>
+		<instance guid="0F707BD1-5E3D-4878-8CB4-9D02C363DBF3" type="GameSharedResources.PadInputActionData">
+			<field name="IsAnalog">false</field>
+			<field name="NegateValue">false</field>
+			<field name="Axis">IDA_Undefined</field>
+			<field name="NormalizeInput">false</field>
+			<field name="ScaleValue">1</field>
+			<field name="UseSquareInput">false</field>
+			<field name="Button">IDB_Undefined</field>
+			<field name="Pov">IDP_POV_Undefined</field>
+		</instance>
+	</instances>
+</root>
