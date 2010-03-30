@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" title="Hello World">
+    <mx:Style>
+        WindowedApplication {
+            background-color:"0x999999";
+            background-alpha:"0.5";
+        }
+    </mx:Style>
+    <mx:Label text="Hello, World" horizontalCenter="0" verticalCenter="0"/>
+</mx:WindowedApplication>
