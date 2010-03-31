@@ -5,6 +5,8 @@ package test {
     import flash.events.InvokeEvent;
     import flash.desktop.NativeApplication;
     import flash.filesystem.File;
+    import flash.filesystem.FileStream;
+    import flash.filesystem.FileMode;
 
     public class test extends Application {
 
@@ -18,10 +20,11 @@ package test {
         }
 
         private function onInvoke( event:Object ):void {
-            trace( "Arguments: " + event.arguments );
-            trace( File.userDirectory.url );
+            var $file:File = File.userDirectory.resolvePath( "xyzzy" );
+            var $fileStream:FileStream = new FileStream();
+            $fileStream.open( $file, FileMode.WRITE );
+            $fileStream.close();
             flash.desktop.NativeApplication.nativeApplication.exit( 0 );
         }
-
     }
 }
