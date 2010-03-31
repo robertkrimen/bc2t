@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/1.5">
+    <id>sandbox.test</id>
+    <version>0.0</version>
+    <filename>test</filename>
+    <initialWindow>
+        <content>test.swf</content>
+        <visible>true</visible>
+        <systemChrome>none</systemChrome>
+        <transparent>true</transparent>
+        <width>600</width>
+        <height>400</height>
+    </initialWindow>
+</application>
+
