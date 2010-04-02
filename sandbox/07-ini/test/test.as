@@ -37,12 +37,12 @@ package test {
                         $section = new SectionLine( $item, $result[0] );
                     }
                     else if ( ( $result = $item.match( /^\s*([^=]+)=\s*(.*)/ ) ) ) {
-                        var $parameter = new ParameterLine( $item, $result[0], $result[1] );
+                        var $parameter:ParameterLine = new ParameterLine( $item, $result[0], $result[1] );
                     }
                     else if ( ( $result = $item.match( /^\s*$/ ) ) )  {
                     }
                     else if ( ( $result = $item.match( /^\s*[;#](.*)$/ ) ) )  {
-                        var $comment = new CommentLine( $item, $result[0] );
+                        var $comment:CommentLine = new CommentLine( $item, $result[0] );
                     }
                     else {
                         trace( $item );
@@ -65,6 +65,7 @@ class INI {
 class SectionLine {
 
     public var name:String;
+    public var comment:String;
 
     private var _$line:String;
 
@@ -78,12 +79,29 @@ class ParameterLine {
 
     public var key:String;
     public var value:String;
+    public var comment:String;
 
     private var _$line:String;
 
-    public function SectionLine( $line:String, $key:String, $remainder:String ) {
+    public function ParameterLine( $line:String, $key:String, $remainder:String ) {
         _$line = $line;
         key = $key;
+
+        var $result:Array;
+        if      ( ( $result = $remainder.match( /^"(.*)"(?:\s*[^;#](.*))?\s*$/ ) ) ) {
+            value = $result[0];
+            comment = $result[1];
+        }
+        else if ( ( $result = $remainder.match( /^([^#;\s]*)(?:\s*[^;#](.*))?\s*$/ ) ) ) {
+            value = $result[0];
+            comment = $result[1];
+        }
+        else if ( ( $result = $remainder.match( /^\s*[^;#](.*)\s*$/ ) ) ) {
+            comment = $result[0];
+        }
+        else {
+            value = null;
+        }
     }
 }
 
@@ -93,7 +111,7 @@ class CommentLine {
 
     private var _$line:String;
 
-    public function SectionLine( $line:String, $comment:String ) {
+    public function CommentLine( $line:String, $comment:String ) {
         _$line = $line;
         comment = $comment;
     }
